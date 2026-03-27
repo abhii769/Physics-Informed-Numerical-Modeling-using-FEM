@@ -1,3 +1,9 @@
+# ⚡ Physics-Informed FEM for Laplace Equation  
+
+A modular MATLAB implementation of the **Finite Element Method (FEM)** to solve **Laplace’s equation** in 2D, with explicit enforcement of physical constraints inspired by physics-informed learning.
+
+---
+
 ## 📌 Overview  
 
 - **Numerical PDE Solver using FEM**  

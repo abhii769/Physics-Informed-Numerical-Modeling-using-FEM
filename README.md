@@ -1,6 +1,6 @@
 📌 Overview
 
-This project implements a numerical PDE solver for Laplace’s equation using FEM to model steady-state potential fields.
+This project implements a numerical PDE solver for Laplace’s equation using the Finite Element Method (FEM) to model steady-state potential fields.
 
 It bridges classical numerical methods with ideas from physics-informed machine learning, where governing equations and boundary conditions are treated as constraints.
 
@@ -30,6 +30,6 @@ Extensibility
 💡 Key Insights
 Demonstrates how physical laws act as constraints, similar to regularization in ML
 Connects:
-FEM
+Finite Element Methods (FEM)
 Variational principles
 Optimization-based formulations

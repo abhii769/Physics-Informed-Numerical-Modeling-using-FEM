@@ -1,38 +1,63 @@
-#📌 Overview
+## 📌 Overview  
 
-This project implements a numerical PDE solver for Laplace’s equation using the Finite Element Method (FEM) to model steady-state potential fields.
-It bridges classical numerical methods with ideas from physics-informed machine learning, where governing equations and boundary conditions are treated as constraints.
+- **Numerical PDE Solver using FEM**  
+  - Solves Laplace’s equation for steady-state potential fields  
+  - Designed for 2D domains  
 
-##🧠 Key Features
+- **Physics-Informed Perspective**  
+  - Treats governing equations and boundary conditions as constraints  
+  - Draws parallels with physics-informed machine learning frameworks  
 
-🧩 FEM Solver for Laplace Equation
-Full pipeline for solving elliptic PDEs on 2D domains
-📐 Physics-Based Boundary Conditions
-Supports:
-Dirichlet conditions (fixed values)
-Neumann conditions (flux constraints)
-🌊 Gradient / Velocity Field Computation
-Computes vector fields from scalar potential using numerical differentiation
-📊 Visualization Pipeline
-Iso-contours of potential
-Vector field plots
-Diagnostic visualizations
-🧱 Modular & Reproducible Code
-Clean MATLAB implementation with emphasis on:
-Stability
-Readability
-Extensibility
+---
 
+## 🧠 Key Features  
 
-##📈 Applications
-🌡️ Heat conduction (steady-state)
-⚡ Electrostatics
-🌊 Potential flow simulation
-🧠 Foundation for Physics-Informed Neural Networks (PINNs)
+- **🧩 FEM Solver for Laplace Equation**  
+  - End-to-end pipeline for elliptic PDEs  
+  - Discretization and system assembly  
 
-##💡 Key Insights
-Demonstrates how physical laws act as constraints, similar to regularization in ML
-Connects:
-Finite Element Methods (FEM)
-Variational principles
-Optimization-based formulations
+- **📐 Physics-Based Boundary Conditions**  
+  - Dirichlet conditions (fixed values)  
+  - Neumann conditions (flux constraints)  
+  - Flexible handling of heterogeneous constraints  
+
+- **🌊 Gradient / Velocity Field Computation**  
+  - Computes vector fields from scalar potential  
+  - Uses numerical differentiation techniques  
+
+- **📊 Visualization Pipeline**  
+  - Iso-contours of potential  
+  - Vector field plots  
+  - Diagnostic visualizations  
+
+- **🧱 Modular & Reproducible Code**  
+  - Clean MATLAB implementation  
+  - Focus on:
+    - Numerical stability  
+    - Readability  
+    - Extensibility  
+
+---
+
+## 📈 Applications  
+
+- **Physical Simulations**  
+  - Heat conduction (steady-state)  
+  - Electrostatics  
+  - Potential flow  
+
+- **Machine Learning Connections**  
+  - Foundation for Physics-Informed Neural Networks (PINNs)  
+  - Constraint-based modeling  
+
+---
+
+## 💡 Key Insights  
+
+- **Physics as Constraints**  
+  - Physical laws enforced similarly to regularization in ML  
+
+- **Conceptual Connections**  
+  - Finite Element Methods (FEM)  
+  - Variational principles  
+  - Optimization-based formulations  
